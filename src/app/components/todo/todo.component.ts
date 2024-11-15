@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Todo } from '../../todo';
 import { NgFor, NgIf } from '@angular/common';
-
-
+import { TodoItemComponent } from '../todo-item/todo-item.component';
+import { AddTodoComponent } from '../add-todo/add-todo.component';
 
 @Component({
   selector: 'app-todo',
